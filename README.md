@@ -56,11 +56,6 @@ To open a socket we have to know three things. This will apply to most of our sc
 - Protocol
 
 
-## Windows
-
-
-
-
 
 
 
