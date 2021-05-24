@@ -71,6 +71,10 @@ To open a socket we have to know three things. This will apply to most of our sc
     - SOCK_SEQPACKET: Sequential packet socket
     - SOCK_PACKET: Linux-specific method of getting packets at the development level 
 3. Protocol
+    - TCP: 6
+    - ICMP: 1
+    - UDP: 17
+    - RDP: 27 
 
 
 
