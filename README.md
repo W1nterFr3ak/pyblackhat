@@ -18,7 +18,8 @@ The datagram socket defines a conectionless service and the datagrams are sent a
 The type in python is SOCK_DGRAM
 
 ### Raw
-Allows access to lower layer protocols such as IP and ICMP and is often used to test new protocol implementation
+Allows access to lower layer protocols such as IP and ICMP and is often used to test new protocol implementation.
+Which means a raw socket receives un-extracted packets. There is no need to provide the port and IP address to a raw socket, unlike in the case of stream and datagram sockets.
 The type in python is SOCK_RAW
 
 
@@ -47,14 +48,16 @@ Applications that listens on all packets and analyse them are commonly known as 
 
 Now we will create a sniffer with a purpose of discovering hosts on a network on both a windows host and Linux host.
 
-## Windows
-
 #### Opening a raw socket
 
-To open a socket we have to know three things.
+To open a socket we have to know three things. This will apply to most of our script
 - Socket family
 - Socket type 
 - Protocol
+
+
+## Windows
+
 
 
 
