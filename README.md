@@ -33,3 +33,14 @@ www.somesite.com sends packet to our machine which is then deconstructed by our 
 Our machine is only allowed to view packets specifically addressed to it , this is known as non-promiscous mode to listen on all packets we have to enable promiscous mode on our machine.
 Applications that listens on all packets and analyse them are commonly known as packet sniffers their are various sniffers available the most common one being wireshark in which creating our own can be seen as pretty useless but doing so shows us the inner workings of such sniffers and equips us with a tool that can never be uninstalled.
 
+#### Steps for building our packet sniffer
+1. Open a raw socket
+2. Set up promiscous mode
+3. Receive network packets
+4. Extract IP headers
+
+Now we will create a sniffer on a windows host and Linux host
+
+---
+# Windows
+###### Opening a raw socket
