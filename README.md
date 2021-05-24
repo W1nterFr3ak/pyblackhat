@@ -46,7 +46,7 @@ Applications that listens on all packets and analyse them are commonly known as 
 ---
 
 
-# UDP Host discovery Sniffer 
+# Host discovery Sniffer 
 
 Now we will create a sniffer with a purpose of discovering hosts on a network on both a windows host and Linux host.
 
