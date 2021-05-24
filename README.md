@@ -1,5 +1,6 @@
 # pyblackhat
-This is my attempt to decompile the Blackhat Python in the most beginner friendly way as i possibly can
+This is my attempt to decompile the Blackhat Python in the most beginner friendly way as i possibly can.
+Dont take this as a level wise decompilation, i will talk about the concepts as i meet them as in the book below is how this is gonna happen. The official sessions will begin on **JUNE** stay tuned __hahahahahahaha__ (evil laugh)
 
 
 # Sockets
