@@ -1,4 +1,5 @@
 # pyblackhat
+This is my attempt to decompile the Blackhat Python in the most beginner friendly way as i possibly can
 
 
 # Sockets
