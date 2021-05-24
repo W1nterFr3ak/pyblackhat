@@ -43,7 +43,14 @@ Applications that listens on all packets and analyse them are commonly known as 
 ---
 
 
-# Opening a raw socket
+# UDP Host discovery Sniffer 
+
+Now we will create a sniffer with a purpose of discovering hosts on a network on both a windows host and Linux host.
+
+## Windows
+
+#### Opening a raw socket
+
 To open a socket we have to know three things.
 - Socket family
 - Socket type 
@@ -52,7 +59,6 @@ To open a socket we have to know three things.
 
 
 
-Now we will create a sniffer with a purpose of discovering hosts on a network on both a windows host and Linux host.
-### Windows
+
 
 
