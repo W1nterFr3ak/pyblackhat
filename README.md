@@ -39,8 +39,20 @@ Applications that listens on all packets and analyse them are commonly known as 
 3. Receive network packets
 4. Extract IP headers
 
-Now we will create a sniffer on a windows host and Linux host
 
 ---
-# Windows
-###### Opening a raw socket
+
+
+# Opening a raw socket
+To open a socket we have to know three things.
+- Socket family
+- Socket type 
+- Protocol
+
+
+
+
+Now we will create a sniffer with a purpose of discovering hosts on a network on both a windows host and Linux host.
+### Windows
+
+
