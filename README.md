@@ -51,7 +51,7 @@ Now we will create a sniffer with a purpose of discovering hosts on a network on
 
 #### Opening a raw socket
 
-To open a socket we have to know three things. This will apply to most of our script
+To open a socket we have to know three things. This will apply to most of our script its not amust we cram all of them we can always refer back to documentations or this list
 1. Socket family
     - AF_LOCAL: Used for local communication
     - AF_UNIX: Unix domain sockets
