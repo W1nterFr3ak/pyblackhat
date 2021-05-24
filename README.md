@@ -51,9 +51,26 @@ Now we will create a sniffer with a purpose of discovering hosts on a network on
 #### Opening a raw socket
 
 To open a socket we have to know three things. This will apply to most of our script
-- Socket family
-- Socket type 
-- Protocol
+1. Socket family
+    - AF_LOCAL: Used for local communication
+    - AF_UNIX: Unix domain sockets
+    - AF_INET: IP version 4 
+    - AF_INET6: IP version 6
+    - AF_IPX: Novell IPX
+    - AF_NETLINK: Kernel user-interface device
+    - AF_X25: Reserved for X.25 project
+    - AF_AX25: Amateur Radio AX.25
+    - AF_APPLETALK: Appletalk DDP
+    - AF_PACKET: Low-level packet interface
+    - AF_ALG: Interface to kernel crypto AP
+2. Socket type 
+    - SOCK_STREAM: Stream (connection) socket
+    - SOCK_DGRAM: Datagram (connection-less) socket
+    - SOCK_RAW: RAW socket
+    - SOCK_RDM: Reliably delivered message
+    - SOCK_SEQPACKET: Sequential packet socket
+    - SOCK_PACKET: Linux-specific method of getting packets at the development level 
+3. Protocol
 
 
 
