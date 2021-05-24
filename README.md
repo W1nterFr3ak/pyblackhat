@@ -20,9 +20,3 @@ The type in python is SOCK_DGRAM
 ### Raw
 Allows access to lower layer protocols such as IP and ICMP and is often used to test new protocol implementation
 The type in python is SOCK_RAW
-
-## setsockopt and getsockopts
-use to manipulate options for the socket refered to by the
-file descriptor.
-
-To know more refer to the manual [page](https://manpages.debian.org/buster/manpages-dev/setsockopt.2.en.html)
