@@ -123,3 +123,6 @@ We bind our host to our socket and the set an option to include ip headers in ou
 ```
 We send an [IOCTL](https://man7.org/linux/man-pages/man2/ioctl.2.html)(input/output control)  to the network card driver to enable promiscous(literaly lol) mode.<br>
 After successfully opening a raw socket, its time to receive network packets, for which you need to use the recvfrom api. We can also use the recv api. But recvfrom provides additional information.
+
+
+Aha we now we can assign thr recvfrom api to a variable to store our network packet and the next thing is to deconstruct it and retrieve required information.
