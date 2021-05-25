@@ -83,22 +83,22 @@ To open a socket we have to know three things. This will apply to most of our sc
 
 ## Sniffer Core code walkthrough
 
-<code>
+`
 import socket
 import os 
 
 HOST  = "192.168.56.1"
 
-</code>
+`
 
 we import our modules that will assist us on our sniffing journey
 Then we specify our host ip.
 
-<code>
+`
 if os.name == 'nt':
         socket_protocol =socket.IPPROTO_IP
     else:
         socket_protocol = socket.IPPROTO_ICMP   
 
-</code>
+`
 
