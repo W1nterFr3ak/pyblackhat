@@ -102,4 +102,4 @@ if os.name == 'nt':
         socket_protocol = socket.IPPROTO_ICMP   
 
 ```
-
+We perform a os check because windows allows us to all incoming packets but linux requires us to specify that we are sniffing ICMP packets
