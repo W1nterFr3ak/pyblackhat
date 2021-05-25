@@ -103,3 +103,15 @@ if os.name == 'nt':
 
 ```
 We perform a os check because windows allows us to all incoming packets but linux requires us to specify that we are sniffing ICMP packets
+
+
+```python
+sniffer = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket_protocol)
+sniffer.bind((HOST, 0))
+
+# tell socket to include IP headers
+sniffer.setsockopt(socket.IPPROTO_IP, socket.IP_HDRINCL, 1)
+```
+We create our socket object which is similar to a file descriptor, come to think of it, it is a file descriptor.
+We bind our host to our socket and the set an option to include ip headers in our packet.
+
